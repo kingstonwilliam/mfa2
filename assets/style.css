@@ -1,0 +1,110 @@
+body{
+    font-family: Barlow;
+  }
+  p{
+    color:hsl(221, 23%, 58%);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'barlow';
+    line-height: 25px;
+  }
+  .all{
+    width:1000px;
+    margin:40px auto;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  #order{
+    background-color: #e7eff2;
+    padding:10px;
+    color:#162342;
+    border:0px;
+    border-radius:5px;
+    font-weight:600;
+  }
+  .content1{
+    display: flex;
+    justify-content: space-between;
+    margin:50px auto;
+  }
+  .content1 img{
+    width: 450px;
+    border-radius: 20px;
+  }
+  .content1-1{
+    width:400px;
+  }
+  .content1-1 h1{
+    font-size:60px;
+    font-weight: 900;
+    font-family: Barlow ;
+    line-height: 55px;
+  }
+  .content1-1 p{
+    margin-bottom: 40px;
+  }
+  #preorder{
+    padding:10px;
+    background-color: hsl(22, 89%, 52%);
+    color:white;
+    border:0px;
+    border-radius: 5px;
+    margin-right: 18px;
+  }
+  #release{
+    color:hsl(221, 23%, 58%);
+    font-weight: 550;
+    font-size: 20px;
+  }
+  .content2{
+    display:flex;
+  }
+  #img1{
+    height:350px;
+    width:200px;
+    border-radius: 30px;
+    background-color: hsl(22, 89%, 52%);
+    background-image: url("images/image-phone-and-keyboard.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+  #img2{
+    height:350px;
+    width:350px;
+    margin: auto 30px;
+    border-radius: 30px;
+  }
+  .content2-1{
+    height:250px;
+    width:250px;
+    margin: 50px 0px 50px 100px;
+  }
+  .content3{
+    display: flex;
+    margin:50px auto;
+   justify-content: space-between;
+  }
+  .content3-1{
+    width:220px;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content3-1 img{
+    width:20px;
+    height:25px;
+    padding:15px;
+    background-color: hsl(22, 89%, 52%);
+    border-radius: 10px;
+  }
+  #smallimg{
+    width:25px;
+    height: 20px;
+  }
+  .content3-1 h2{
+    color:#162441;
+    margin:20px 0px;
+    font-size: 28px;
+  }
